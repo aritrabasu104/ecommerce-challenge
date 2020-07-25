@@ -1,0 +1,9 @@
+output:
+  filepath: tmp
+  shouldpersist: false
+thread:
+  size:
+    corepool: 50
+    maxpool: 100
+    queue: 1000
+  shutdowntime: 5

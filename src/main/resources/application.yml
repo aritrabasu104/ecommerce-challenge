@@ -1,0 +1,19 @@
+apidetails:
+  title: Vmware Number Generator API
+  description:  Vmware Number Generator and Status Info API challenge
+  version: 1.0
+  terms-of-service: Terms of Service
+  name: Aritra Basu
+  url: https://www.linkedin.com/in/aritra-basu-full-stack/
+  email: aritrabasu104@gmail.com
+  license: Apache License Version 2.0
+  licenseUrl: https://www.apache.org/licesen.html
+output:
+  filepath: tmp
+  shouldpersist: false
+thread:
+  size:
+    corepool: 50
+    maxpool: 100
+    queue: 1000
+  shutdowntime: 5

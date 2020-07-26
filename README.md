@@ -1,6 +1,6 @@
 # Spring Boot "Microservice" Project - number generator
 
-This is a sample Java / Spring Boot application wiht Junit Test cases and Swagger. The api details can be found in http://localhost:8080/swagger-ui.html
+This is a sample Java / Spring Boot application with NIO file operations, Spring Caching,Exception Handling, Junit Test cases and Swagger. The api details can be found in http://localhost:8080/swagger-ui.html
 
 ## How to Run 
 

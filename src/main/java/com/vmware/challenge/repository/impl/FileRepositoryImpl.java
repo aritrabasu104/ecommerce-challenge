@@ -67,7 +67,6 @@ public class FileRepositoryImpl implements FileRepository {
 		} catch (IOException e) {
 			throw new DataReadFailedException(taskId.toString(), ExceptionUtils.getRootCauseMessage(e));
 		}
-		System.out.println("actual read");
 		return result;
 	}
 

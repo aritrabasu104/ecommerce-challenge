@@ -1,4 +1,4 @@
-package com.vmware.challenge;
+package com.vmware.challenge.controller;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.hasItem;

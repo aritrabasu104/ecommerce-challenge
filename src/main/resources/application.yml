@@ -1,6 +1,6 @@
 apidetails:
-  title: Vmware Number Generator API
-  description:  Vmware Number Generator and Status Info API challenge
+  title: Tomtom Ecommerce API
+  description:  Tomtom Ecommerce API challenge
   version: 1.0
   terms-of-service: Terms of Service
   name: Aritra Basu
@@ -8,12 +8,6 @@ apidetails:
   email: aritrabasu104@gmail.com
   license: Apache License Version 2.0
   licenseUrl: https://www.apache.org/licesen.html
-output:
-  filepath: tmp
-  shouldpersist: false
-thread:
-  size:
-    corepool: 50
-    maxpool: 100
-    queue: 1000
-  shutdowntime: 5
+spring:
+  jpa:
+    show_sql: true

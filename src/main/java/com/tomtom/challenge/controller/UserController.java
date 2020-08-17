@@ -17,12 +17,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tomtom.challenge.dto.CartResDto;
-import com.tomtom.challenge.dto.OrderDetailsReqDto;
-import com.tomtom.challenge.dto.OrderDetailsResDto;
-import com.tomtom.challenge.dto.ProductCartDto;
-import com.tomtom.challenge.dto.UserReqDto;
-import com.tomtom.challenge.dto.UserResDto;
+import com.tomtom.challenge.dto.cart.CartResDto;
+import com.tomtom.challenge.dto.order.OrderDetailsReqDto;
+import com.tomtom.challenge.dto.order.OrderDetailsResDto;
+import com.tomtom.challenge.dto.product.ProductCartDto;
+import com.tomtom.challenge.dto.product.ProductResDto;
+import com.tomtom.challenge.dto.product.ProductSearchDto;
+import com.tomtom.challenge.dto.user.UserReqDto;
+import com.tomtom.challenge.dto.user.UserResDto;
 import com.tomtom.challenge.error.custom.CartNotEditable;
 import com.tomtom.challenge.error.custom.CartOrderDoesMatchCartUser;
 import com.tomtom.challenge.error.custom.NotEnoguhQuantityException;
@@ -72,5 +74,10 @@ public class UserController {
 		return ResponseEntity.status(201).body(modelMapper.map(userService.updateCart(cart,product),CartResDto.class));
 	}
 
-
+	@PostMapping("/user/search")
+	public ResponseEntity<List<ProductResDto>> search(@Valid @RequestBody ProductSearchDto productSearchDto) {
+		
+		return ResponseEntity.status(201).body(userService.searchProducts(productSearchDto).stream()
+				.map(product->modelMapper.map(product, ProductResDto.class)).collect(Collectors.toList()));
+	}
 }

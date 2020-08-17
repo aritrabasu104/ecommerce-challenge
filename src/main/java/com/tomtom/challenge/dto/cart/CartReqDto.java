@@ -1,4 +1,4 @@
-package com.tomtom.challenge.dto;
+package com.tomtom.challenge.dto.cart;
 
 import javax.validation.constraints.NotNull;
 

@@ -1,15 +1,14 @@
-package com.tomtom.challenge.dto;
+package com.tomtom.challenge.dto.category;
 
 import javax.validation.constraints.NotBlank;
 
 import lombok.Getter;
 import lombok.Setter;
 
-
 @Getter @Setter
-public class UserReqDto {
-	
+public class CategoryReqDto {
+
 	@NotBlank
-	private String name;
+	private String value;
 	
 }

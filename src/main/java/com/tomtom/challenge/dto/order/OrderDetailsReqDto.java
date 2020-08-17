@@ -1,6 +1,8 @@
-package com.tomtom.challenge.dto;
+package com.tomtom.challenge.dto.order;
 
 import javax.validation.constraints.NotNull;
+
+import com.tomtom.challenge.dto.user.UserCartDto;
 
 import lombok.Getter;
 import lombok.Setter;

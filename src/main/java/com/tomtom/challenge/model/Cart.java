@@ -82,7 +82,7 @@ public class Cart {
 				Integer qOrdered = entry.getValue();
 
 				if (product.getQuantity() >= qOrdered)
-					total += (product.getProductDescription().getPrice() * qOrdered);
+					total += (product.getPrice() * qOrdered);
 				else {
 					errorList.add(entry.getKey());
 					entries.remove(entry);

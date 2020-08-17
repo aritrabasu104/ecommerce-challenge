@@ -1,9 +1,11 @@
-package com.tomtom.challenge.dto;
+package com.tomtom.challenge.dto.seller;
 
 import java.util.List;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
+
+import com.tomtom.challenge.dto.product.ProductResDto;
 
 import lombok.Getter;
 import lombok.Setter;

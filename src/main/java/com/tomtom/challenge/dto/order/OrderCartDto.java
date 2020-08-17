@@ -1,4 +1,4 @@
-package com.tomtom.challenge.dto;
+package com.tomtom.challenge.dto.order;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;

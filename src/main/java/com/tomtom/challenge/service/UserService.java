@@ -2,6 +2,9 @@ package com.tomtom.challenge.service;
 
 import java.util.List;
 
+import org.springframework.data.domain.Page;
+
+import com.tomtom.challenge.dto.product.ProductSearchDto;
 import com.tomtom.challenge.error.custom.CartNotEditable;
 import com.tomtom.challenge.error.custom.CartOrderDoesMatchCartUser;
 import com.tomtom.challenge.error.custom.NotEnoguhQuantityException;
@@ -19,4 +22,5 @@ public interface UserService {
 	OrderDetails placeOrder(OrderDetails orderDetails) throws CartOrderDoesMatchCartUser, NotEnoguhQuantityException, CartNotEditable;
 
 	Cart updateCart(Cart cart,Product product) throws CartNotEditable;
+	Page<Product> searchProducts(ProductSearchDto productSearchDto);
 }

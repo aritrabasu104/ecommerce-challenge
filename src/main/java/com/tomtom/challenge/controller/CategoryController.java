@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tomtom.challenge.dto.CategoryReqDto;
-import com.tomtom.challenge.dto.CategoryResDto;
+import com.tomtom.challenge.dto.category.CategoryReqDto;
+import com.tomtom.challenge.dto.category.CategoryResDto;
 import com.tomtom.challenge.model.Category;
 import com.tomtom.challenge.service.AdminService;
 

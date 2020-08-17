@@ -17,14 +17,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tomtom.challenge.dto.ProductDescriptionReqDto;
-import com.tomtom.challenge.dto.ProductDescriptionResDto;
-import com.tomtom.challenge.dto.ProductReqDto;
-import com.tomtom.challenge.dto.ProductResDto;
-import com.tomtom.challenge.dto.SellerReqDto;
-import com.tomtom.challenge.dto.SellerResDto;
+import com.tomtom.challenge.dto.product.ProductReqDto;
+import com.tomtom.challenge.dto.product.ProductResDto;
+import com.tomtom.challenge.dto.seller.SellerReqDto;
+import com.tomtom.challenge.dto.seller.SellerResDto;
 import com.tomtom.challenge.model.Product;
-import com.tomtom.challenge.model.ProductDescription;
 import com.tomtom.challenge.model.Seller;
 import com.tomtom.challenge.service.SellerService;
 
@@ -53,13 +50,6 @@ public class SellerController {
 				.map(item -> modelMapper.map(item, ProductResDto.class)).collect(Collectors.toList()));
 	}
 	
-	@GetMapping("/seller/productdesc")
-	public ResponseEntity<List<ProductDescriptionResDto>> getProductDescriptions(@Valid @RequestParam(required = true) @Min(1) Long sellerId) {
-		Seller seller = new Seller();
-		seller.setId(sellerId);
-		return ResponseEntity.status(200).body(sellerService.getProductDescriptions(seller).stream()
-				.map(item -> modelMapper.map(item, ProductDescriptionResDto.class)).collect(Collectors.toList()));
-	}
 
 	@PostMapping("/seller")
 	public ResponseEntity<SellerResDto> addSeller(@Valid @RequestBody SellerReqDto sellerDto) {
@@ -75,31 +65,5 @@ public class SellerController {
 		return ResponseEntity.status(201).body(modelMapper.map(product, ProductResDto.class));
 	}
 
-	@PostMapping("/seller/productdesc")
-	public ResponseEntity<ProductDescriptionResDto> addProductDescription(@Valid @RequestBody ProductDescriptionReqDto productDescriptionDto) {
-		ProductDescription productDescription = modelMapper.map(productDescriptionDto, ProductDescription.class);
-		productDescription = sellerService.addProductDescription(productDescription);
-		return ResponseEntity.status(201).body(modelMapper.map(productDescription, ProductDescriptionResDto.class));
-	}
-	
-
-//	@GetMapping("/tasks/{id}/status")
-//	public ResponseEntity<TaskStatusDto> checkTaskStatus(@Valid @NotNull @PathVariable(required = true) UUID id) {
-//		STATUS status = taskService.getStatus(id);
-//		return ResponseEntity.ok().body(new TaskStatusDto(status.toString()));
-//	}
-//
-//	@GetMapping("/tasks/{id}")
-//	public ResponseEntity<TaskStatusDto> checkOutput(@Valid @NotNull @PathVariable(required = true) UUID id,
-//			@Valid @Pattern(regexp = VALIDATION_NUMLIST) @RequestParam(required = true) String action) throws DataReadFailedException {
-//		String data = taskService.readData(id);
-//		return ResponseEntity.ok().body(new TaskStatusDto(data));
-//	}
-//
-//	private TaskIDDto mapTaskToTaskResponse(NumGenTask task) {
-//		TaskIDDto taskResponseDto = new TaskIDDto();
-//		taskResponseDto.setTask(task.getId());
-//		return taskResponseDto;
-//	}
 
 }

@@ -1,4 +1,4 @@
-package com.tomtom.challenge.dto;
+package com.tomtom.challenge.dto.product;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
@@ -7,17 +7,15 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter
-public class ProductReqDto {
+public class ProductCartDto {
 	
 	@NotNull
-	private CategoryResDto category;
+	@Min(1)
+	private Long id;
 	
 	@NotNull
 	@Min(1)
 	private Integer quantity;
 	
-	@NotNull
-	private SellerResDto seller;
 	
-	private ProductDescriptionResDto productDescription;
 }

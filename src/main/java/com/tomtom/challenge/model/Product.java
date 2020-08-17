@@ -5,11 +5,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import javax.persistence.NamedAttributeNode;
-import javax.persistence.NamedEntityGraph;
-import javax.persistence.NamedSubgraph;
-import javax.persistence.OneToOne;
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 import lombok.EqualsAndHashCode;
@@ -18,21 +15,6 @@ import lombok.Setter;
 
 @Entity
 @Getter @Setter
-@NamedEntityGraph(
-		  name = "product-entity-graph-with-min-details",
-		  attributeNodes = {
-		    @NamedAttributeNode("seller"),
-		    @NamedAttributeNode(value = "productDescription", subgraph = "productDescription-subgraph"),
-		  },
-		  subgraphs = {
-		    @NamedSubgraph(
-		      name = "productDescription-subgraph",
-		      attributeNodes = {
-		        @NamedAttributeNode("title"),@NamedAttributeNode("imageUrl"),@NamedAttributeNode("price")
-		      }
-		    )
-		  }
-		)
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Product {
 	
@@ -53,7 +35,17 @@ public class Product {
 	@NotNull
 	private Seller seller;
 	
-	@OneToOne
+	@NotBlank
+	private String title;
+	
 	@NotNull
-	private ProductDescription productDescription;
+	@Min(0)
+	private Double price;
+	
+	private String description;
+	
+	@NotBlank
+	private String imageUrl;
+	
+	private Integer rating;
 }

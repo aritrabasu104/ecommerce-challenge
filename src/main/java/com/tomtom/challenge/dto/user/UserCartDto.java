@@ -1,4 +1,4 @@
-package com.tomtom.challenge.dto;
+package com.tomtom.challenge.dto.user;
 
 import javax.validation.constraints.NotNull;
 
@@ -7,12 +7,9 @@ import lombok.Setter;
 
 
 @Getter @Setter
-public class UserResDto {
+public class UserCartDto {
 	
 	@NotNull
 	private Long Id;
 	
-	private String name;
-	
-	private CartResDto cart;
 }

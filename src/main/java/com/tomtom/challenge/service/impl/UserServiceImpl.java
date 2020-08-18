@@ -186,7 +186,7 @@ public class UserServiceImpl implements UserService {
 			page.setPageSize(DEF_PAGE_SIZE);
 			productSearchDto.setPageDto(page);
 		}
-		productSearchDto.setSortColumn(ProductSearchDto.SortColumn.price);
+// 		productSearchDto.setSortColumn(ProductSearchDto.SortColumn.price);
 
 		if (productSearchDto.getSortOrder() == ProductSearchDto.SortOrder.ASC) {
 			order = cb.asc(product.get(productSearchDto.getSortColumn().toString()));

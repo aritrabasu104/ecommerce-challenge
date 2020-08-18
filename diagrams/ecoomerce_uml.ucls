@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.tomtom.challenge.service.impl.SellerServiceImpl" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/service/impl/SellerServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="188" x="4376" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.tomtom.challenge.service.impl.ExternalTransactionServiceImpl" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/service/impl/ExternalTransactionServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="205" x="5996" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="com.tomtom.challenge.repository.CategoryRepository" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/repository/CategoryRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="63" width="150" x="5843" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.tomtom.challenge.model.Category" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/model/Category.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="181" x="7659" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.tomtom.challenge.dto.product.ProductSearchDto" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/product/ProductSearchDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="549" width="184" x="3343" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.tomtom.challenge.service.AdminService" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/service/AdminService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="187" x="5616" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="7" language="java" name="com.tomtom.challenge.repository.OrderDetailsRepository" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/repository/OrderDetailsRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="157" x="6570" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="com.tomtom.challenge.dto.order.OrderDetailsReqDto" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/order/OrderDetailsReqDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="157" x="4016" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.tomtom.challenge.error.custom.NotEnoguhQuantityException" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/error/custom/NotEnoguhQuantityException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="239" x="144" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="com.tomtom.challenge.service.SellerService" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/service/SellerService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="188" x="4482" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="com.tomtom.challenge.model.User" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/model/User.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="133" x="4839" y="882"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.tomtom.challenge.error.custom.CartNotEditable" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/error/custom/CartNotEditable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="161" x="423" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.tomtom.challenge.dto.seller.SellerReqDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/seller/SellerReqDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="146" x="624" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.tomtom.challenge.model.Seller" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/model/Seller.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="333" width="181" x="7880" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.tomtom.challenge.dto.cart.CartReqDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/cart/CartReqDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="140" x="810" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="16" language="java" name="com.tomtom.challenge.dto.product.ProductSearchDto.SortOrder" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/product/ProductSearchDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="155" x="2942" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="17" language="java" name="com.tomtom.challenge.dto.user.UserCartDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/user/UserCartDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="142" x="3925" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="com.tomtom.challenge.model.Cart" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/model/Cart.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="423" width="236" x="4710" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.tomtom.challenge.error.custom.CartOrderDoesMatchCartUser" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/error/custom/CartOrderDoesMatchCartUser.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="202" x="990" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.tomtom.challenge.dto.category.CategoryResDto" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/category/CategoryResDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="216" x="7147" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.tomtom.challenge.service.impl.AdminServiceImpl" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/service/impl/AdminServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="187" x="5769" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.tomtom.challenge.dto.product.ProductReqDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/product/ProductReqDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="477" width="184" x="3638" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.tomtom.challenge.dto.order.OrderCartDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/order/OrderCartDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="145" x="4107" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="24" language="java" name="com.tomtom.challenge.repository.UserRepository" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/repository/UserRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="63" width="150" x="6767" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="25" language="java" name="com.tomtom.challenge.EcommerceApplication" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/EcommerceApplication.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="156" x="1232" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="26" language="java" name="com.tomtom.challenge.service.UserService" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/service/UserService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="275" x="6255" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="27" language="java" name="com.tomtom.challenge.controller.UserController" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/controller/UserController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="368" x="6241" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.tomtom.challenge.dto.user.UserReqDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/user/UserReqDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="142" x="1428" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.tomtom.challenge.error.response.CustomErrorResponse" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/error/response/CustomErrorResponse.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="193" x="1610" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="30" language="java" name="com.tomtom.challenge.repository.ProductRepository" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/repository/ProductRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="188" x="5388" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="31" language="java" name="com.tomtom.challenge.service.ExternalTransactionService" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/service/ExternalTransactionService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="182" x="6033" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="32" language="java" name="com.tomtom.challenge.config.AppConfig" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/config/AppConfig.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="165" x="1843" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.tomtom.challenge.controller.SellerController" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/controller/SellerController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="323" x="4604" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="com.tomtom.challenge.dto.page.PageDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/page/PageDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="166" x="3137" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="com.tomtom.challenge.dto.product.ProductCartDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/product/ProductCartDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="155" x="2048" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="com.tomtom.challenge.model.OrderDetails" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/model/OrderDetails.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="157" x="4967" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="37" language="java" name="com.tomtom.challenge.repository.SellerRepository" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/repository/SellerRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="63" width="150" x="4292" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="38" language="java" name="com.tomtom.challenge.dto.order.OrderDetailsResDto" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/order/OrderDetailsResDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="165" x="5180" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.tomtom.challenge.dto.seller.SellerResDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/seller/SellerResDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="216" x="7403" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="40" language="java" name="com.tomtom.challenge.model.OrderDetails.STATUS" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/model/OrderDetails.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="133" x="5007" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="41" language="java" name="com.tomtom.challenge.repository.CartRepository" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/repository/CartRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="63" width="150" x="6957" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="42" language="java" name="com.tomtom.challenge.error.CustomGlobalExceptionHandler" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/error/CustomGlobalExceptionHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="657" x="2243" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="com.tomtom.challenge.service.impl.UserServiceImpl" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/service/impl/UserServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="275" x="6649" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="com.tomtom.challenge.dto.seller.SellerIdDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/seller/SellerIdDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="146" x="3739" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="com.tomtom.challenge.dto.category.CategoryIdDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/category/CategoryIdDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="161" x="3538" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="com.tomtom.challenge.config.SwaggerConfig" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/config/SwaggerConfig.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="162" x="2940" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="com.tomtom.challenge.dto.cart.CartResDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/cart/CartResDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="271" x="5264" y="882"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="com.tomtom.challenge.controller.CategoryController" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/controller/CategoryController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="344" x="5385" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="com.tomtom.challenge.dto.category.CategoryReqDto" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/category/CategoryReqDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="161" x="3142" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="50" language="java" name="com.tomtom.challenge.dto.product.ProductSearchDto.SortColumn" 
+    project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/product/ProductSearchDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="155" x="3343" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="51" language="java" name="com.tomtom.challenge.dto.product.ProductResDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/product/ProductResDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="531" width="195" x="7275" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="com.tomtom.challenge.dto.user.UserResDto" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/dto/user/UserResDto.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="147" x="5180" y="419"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="com.tomtom.challenge.model.Product" project="spring-rest-validation" 
+    file="/spring-rest-validation/src/main/java/com/tomtom/challenge/model/Product.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="585" width="160" x="7769" y="-206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="54">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="55" name="seller"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="58" name="sortOrder"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="61" name="category"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="64" name="productRepository"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="66">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="50"/>  
+  </nesting>  
+  <association id="67">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="68" name="cart"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="70">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="71">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="72" name="adminService"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="74">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="75" name="user"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="77">    
+    <bendpoint x="5357" y="419"/>    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="78" name="cart"/>      
+      <multiplicity id="79" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="80">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="81" name="category"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="83">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="84" name="pageDto"/>      
+      <multiplicity id="85" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="86">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="87" name="sellerRepository"/>      
+      <multiplicity id="88" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="89">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="31"/>  
+  </realization>  
+  <nesting id="90">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="40"/>  
+  </nesting>  
+  <association id="91">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="92" name="transactionService"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="95" name="products"/>      
+      <multiplicity id="96" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="97">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="98" name="userRepository"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="100">    
+    <end type="SOURCE" refId="52" navigable="false">      
+      <attribute id="101" name="cart"/>      
+      <multiplicity id="102" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="47" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="103">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="104" name="productRepository"/>      
+      <multiplicity id="105" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="106">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="107">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="108" name="categoryRepository"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="111" name="products"/>      
+      <multiplicity id="112" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="114" name="user"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="117" name="category"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="119">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="16"/>  
+  </nesting>  
+  <association id="120">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="121" name="seller"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="124" name="seller"/>      
+      <multiplicity id="125" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="126">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="127" name="sellerService"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="129">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <association id="130">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="131" name="sortColumn"/>      
+      <multiplicity id="132" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="50" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="133">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="134" name="orderDetailsRepository"/>      
+      <multiplicity id="135" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="136">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="137" name="cart"/>      
+      <multiplicity id="138" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="139">    
+    <bendpoint x="4976" y="419"/>    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="140" name="user"/>      
+      <multiplicity id="141" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="142">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="143" name="products"/>      
+      <multiplicity id="144" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="145">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="146" name="category"/>      
+      <multiplicity id="147" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="148">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="149" name="status"/>      
+      <multiplicity id="150" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="151">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="152" name="user"/>      
+      <multiplicity id="153" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="154">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="155" name="user"/>      
+      <multiplicity id="156" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="52" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="157">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="158" name="products"/>      
+      <multiplicity id="159" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="160">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="161" name="userService"/>      
+      <multiplicity id="162" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="163">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="164" name="categoryRepository"/>      
+      <multiplicity id="165" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="166">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="167" name="status"/>      
+      <multiplicity id="168" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="169">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="170" name="cart"/>      
+      <multiplicity id="171" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="172">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="173" name="cartRepository"/>      
+      <multiplicity id="174" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
